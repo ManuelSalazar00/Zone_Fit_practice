@@ -1,0 +1,11 @@
+spring.application.name=zone_fit
+# DB connection
+spring.datasource.url=jdbc:mysql://localhost:3306/zona_fit_db
+# This is where the environment variable is configured
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+# JPA
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.show-sql=false
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+# Disable Tomcat
+spring.main.web-application-type=none
